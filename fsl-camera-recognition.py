@@ -28,10 +28,10 @@ from tensorflow import keras
 
 # ---------------- CONFIG ----------------
 MODEL_TASK_PATH = "hand_landmarker.task"   # MediaPipe hand landmark model
-TRAINED_MODEL_PATH = "fsl_model.keras"     # your trained Conv1D+LSTM model
-LABEL_CLASSES_PATH = "label_classes.npy"   # array of class names, index-aligned to model output
-NORM_MEAN_PATH = "norm_mean.npy"           # saved during training
-NORM_STD_PATH = "norm_std.npy"             # saved during training
+TRAINED_MODEL_PATH = "models\\fsl_model.keras"     # your trained Conv1D+LSTM model
+LABEL_CLASSES_PATH = "models\\label_classes.npy"   # array of class names, index-aligned to model output
+NORM_MEAN_PATH = "models\\norm_mean.npy"           # saved during training
+NORM_STD_PATH = "models\\norm_std.npy"             # saved during training
 CONFIDENCE_THRESHOLD = 0.6                 # only show prediction above this confidence
 # -----------------------------------------
 

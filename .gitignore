@@ -18,14 +18,14 @@ env/
 .DS_Store
 Thumbs.db
 
-# Model / generated artifacts (data/ images are tracked)
-*.npy
-*.keras
-*.h5
-*.task
-*.jpg
-*.png
+# Logs
 *.log
+
+#DATASET
+data/
+
+# Pretrained third-party asset (large, downloaded, not something we train)
+hand_landmarker.task
 
 # Jupyter
 .ipynb_checkpoints/

@@ -46,8 +46,8 @@ from mediapipe.tasks.python import vision as mp_vision
 # ---------------- CONFIG ----------------
 DATASET_ROOT = "data/Collated"          # change to your dataset folder path
 MODEL_PATH = "hand_landmarker.task"   # path to downloaded model file
-OUTPUT_X = "X.npy"
-OUTPUT_Y = "y.npy"
+OUTPUT_X = "extracted_data/X.npy"
+OUTPUT_Y = "extracted_data/y.npy"
 VALID_EXTENSIONS = (".jpg", ".jpeg", ".png")
 MIN_HAND_DETECTION_CONFIDENCE = 0.5
 # -----------------------------------------

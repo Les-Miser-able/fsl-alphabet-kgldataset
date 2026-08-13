@@ -10,8 +10,8 @@ correctly before training.
 import numpy as np
 from collections import Counter
 
-X_PATH = "X.npy"
-Y_PATH = "y.npy"
+X_PATH = "extracted_data\\X.npy"
+Y_PATH = "extracted_data\\y.npy"
 
 X = np.load(X_PATH)
 y = np.load(Y_PATH)

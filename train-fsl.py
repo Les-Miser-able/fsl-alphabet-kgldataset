@@ -20,10 +20,10 @@ from tensorflow.keras import layers
 import matplotlib.pyplot as plt
 
 # ---------------- CONFIG ----------------
-X_PATH = "X.npy"
-Y_PATH = "y.npy"
-MODEL_OUT_PATH = "fsl_model.keras"
-LABELS_OUT_PATH = "label_classes.npy"
+X_PATH = "extracted_data\\X.npy"
+Y_PATH = "extracted_data\\y.npy"
+MODEL_OUT_PATH = "models\\fsl_model.keras"
+LABELS_OUT_PATH = "models\\label_classes.npy"
 
 TEST_SIZE = 0.2
 VAL_SIZE = 0.1          # taken from the training split
@@ -79,8 +79,8 @@ def main():
     mean = X.mean(axis=(0, 1), keepdims=True)
     std = X.std(axis=(0, 1), keepdims=True) + 1e-8
     X = (X - mean) / std
-    np.save("norm_mean.npy", mean)
-    np.save("norm_std.npy", std)
+    np.save("models\\norm_mean.npy", mean)
+    np.save("models\\norm_std.npy", std)
 
     # ---- Split ----
     X_train, X_test, y_train, y_test = train_test_split(
@@ -142,8 +142,8 @@ def main():
     axes[1].legend()
 
     plt.tight_layout()
-    plt.savefig("training_history.png")
-    print("Training curves saved to training_history.png")
+    plt.savefig("models\\training_history.png")
+    print("Training curves saved to models\\training_history.png")
 
 
 if __name__ == "__main__":
