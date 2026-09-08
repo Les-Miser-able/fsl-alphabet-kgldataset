@@ -1,0 +1,48 @@
+{
+  "category": "alphabet",
+  "classes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "input_shape": [
+    21,
+    3
+  ],
+  "mean": [
+    0.5029229521751404,
+    0.4724382758140564,
+    -0.12705227732658386
+  ],
+  "std": [
+    0.14556308090686798,
+    0.19206242263317108,
+    0.09752721339464188
+  ],
+  "model_type": "single-frame-one-hand",
+  "source_sha256": "f6b504aa92ecad8e07d77faa8dd0a52a772478308d7321ca13d7c94c1fd24061",
+  "limitation": "This model classifies single-frame hand poses, including J/Z poses; it does not recognize their motion."
+}

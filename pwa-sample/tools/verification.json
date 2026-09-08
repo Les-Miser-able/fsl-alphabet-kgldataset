@@ -1,0 +1,6 @@
+{
+  "cases": 12,
+  "maxError": 5.960464477539062e-7,
+  "maxRoundtrip": 0,
+  "backend": "cpu"
+}
