@@ -29,3 +29,12 @@ hand_landmarker.task
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Generated sequence datasets and training runs
+extracted_data/sequences/
+extracted_data/recordings_only/
+models/sequences/
+
+# Category datasets and model runs
+extracted_data/categories/
+models/categories/

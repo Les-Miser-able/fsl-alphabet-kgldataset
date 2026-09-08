@@ -44,7 +44,7 @@ from mediapipe.tasks import python as mp_python
 from mediapipe.tasks.python import vision as mp_vision
 
 # ---------------- CONFIG ----------------
-DATASET_ROOT = "data/Collated"          # change to your dataset folder path
+DATASET_ROOT = "data/categories/alphabet"          # change to your dataset folder path
 MODEL_PATH = "hand_landmarker.task"   # path to downloaded model file
 OUTPUT_X = "extracted_data/X.npy"
 OUTPUT_Y = "extracted_data/y.npy"

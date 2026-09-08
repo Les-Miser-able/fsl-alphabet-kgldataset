@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "categories": {
+    "alphabet": {
+      "display_name": "Alphabet",
+      "classes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "recording_only_classes": [
+        "J",
+        "Z"
+      ]
+    },
+    "numbers": {
+      "display_name": "Numbers",
+      "classes": [],
+      "recording_only_classes": []
+    },
+    "family": {
+      "display_name": "Family",
+      "classes": [],
+      "recording_only_classes": []
+    },
+    "wh_words": {
+      "display_name": "WH Words",
+      "classes": [
+        "WHO",
+        "WHAT",
+        "WHERE",
+        "WHEN",
+        "WHY",
+        "HOW"
+      ],
+      "recording_only_classes": []
+    }
+  }
+}
